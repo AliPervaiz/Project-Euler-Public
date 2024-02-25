@@ -79,10 +79,6 @@ struct node
 };
 ll INF = numeric_limits<ll>::max();
 
-void solve()
-{
-  
-}
 string dSort(int n)
 {
   vi v(10);
@@ -104,9 +100,8 @@ int p(int n)
   rep(i,2,sqrt(n)+.001) if(n%i==0) return 0;
   return 1;
 }
-void pre()
+void solve()
 {
-  //freopen("input.txt", "r", stdin);
   rep(a,1000,10000)
   {
     if(!p(a)) continue;
@@ -119,6 +114,11 @@ void pre()
       if(perm(a,b)&&perm(b,c)) cout << a << b << c << endl;
     }
   }
+}
+
+void pre()
+{
+  //freopen("input.txt", "r", stdin);
 }
 int32_t main() 
 {
