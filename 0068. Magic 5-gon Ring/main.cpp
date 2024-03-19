@@ -128,7 +128,7 @@ void f(int n)
 }
 void solve()
 {
-  
+  trav(i,cand) f(i);
 }
 void pre()
 {
@@ -138,7 +138,6 @@ void pre()
   sets.pb({5,4,6});
   sets.pb({7,6,8});
   sets.pb({9,8,1});
-  trav(i,cand) f(i);
 }
 int32_t main() 
 {
