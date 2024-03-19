@@ -133,6 +133,7 @@ void solve()
 void pre()
 {
   //freopen("input.txt", "r", stdin);
+  
   sets = {{0,1,2},{3,2,4},{5,4,6},{7,6,8},{9,8,1}};
 }
 int32_t main() 
